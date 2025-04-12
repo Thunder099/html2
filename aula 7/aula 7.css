@@ -1,0 +1,18 @@
+p {
+    background-color: rgb(202, 225, 255);
+    color:blueviolet;
+    text-align: center;
+}
+
+p:hover {
+    background-color: rgb(243, 175, 175);
+    color:red;
+    cursor: pointer;
+
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 0px;
+}
