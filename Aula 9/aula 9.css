@@ -12,26 +12,69 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
 
     width: 350px;
-    height: 500px;
+    height: 450px;
 
     border-radius: 10px;
 
-    padding: 60px;
     box-sizing: border-box;
-
 
     text-align: center;
     
-
     margin-left: auto;
     margin-right: auto;
 
-    margin-top: 100px;
+    margin-top: 120px;
+
+}
+
+.drento {
+    margin-top: 10px;
+    padding: 20px;
+
 
     & h1 {
         color: white;
+        font-size: 40px;
         text-align: center;
-        font-size: 30px;
+
+        margin-top: 60px;
+
     }
-    
+
+    & input {
+        width: 240px;
+        height: 50px;
+        
+        padding-left: 10px;
+        box-sizing: border-box;
+        
+        border-style: solid;
+        border-color: rgba(229, 253, 255, 0.281);
+
+        border-radius: 5px;
+        background-color: rgba(21, 43, 85, 0.267);
+
+
+    }
+
+    & button {
+        color: rgb(255, 255, 255);
+
+        width: 240px;
+        height: 50px;
+        background-color: red;
+
+        border-radius: 5px;
+
+        border-style: hidden;
+
+        cursor: pointer;
+
+        font-size: 20px;
+    }
+
+    & button a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
