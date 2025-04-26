@@ -1,0 +1,23 @@
+#preto {
+    background-color: black;
+    width: 600px;
+    height: 140px;
+
+    margin-top: 150px;
+}
+
+#vermelho {
+    background-color: red;
+    width: 600px;
+    height: 140px;
+}
+
+#amarelo {
+    background-color: rgb(245, 208, 0);
+    width: 600px;
+    height: 140px;
+}
+
+.centro {
+    margin: auto;
+}

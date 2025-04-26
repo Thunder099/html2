@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 30%;
+    height: 100px;
+
+    background-color: aquamarine;
+    float: left;
+}
+
+.banner {
+    width: 70%;
+    height: 100px;
+
+    background-color: blueviolet;
+    float: left;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+
+    background-color: red;
+    float: left;
+}
+
+.nav {
+    width: 20%;
+    height: 579px;
+
+    background-color: chartreuse;
+    float: left;
+}
+
+.destaque {
+    width: 50%;
+    height: 289px;
+
+    background-color: darkcyan;
+    float: left;
+}
+
+.conteudo1 {
+    width: 50%;
+    height: 289px;
+
+    margin: 0px;
+
+    background-color: hotpink;
+    float: left;
+}
+
+.anuncio {
+    width: 100%;
+    height: 729px;
+
+    background-color: cornflowerblue;
+}
