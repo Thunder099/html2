@@ -1,0 +1,25 @@
+#box {
+    width: 210px;
+    height: 210px;
+    background: rgb(239, 208, 255);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#img {
+    width: 210px;
+    height: 210px;
+    background: url("https://media.defense.gov/2021/Aug/03/2002821230/2000/2000/0/170809-F-LW859-9203.JPG");
+    background-size: 999px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+
+    & h1, p {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
