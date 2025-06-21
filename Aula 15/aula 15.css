@@ -1,7 +1,7 @@
 :root {
     --body-bg-color: #f7fbfd;
-    --purple: #3894B5;
-    --purple-two: #c8eafe;
+    --purple: #4bb8e0;
+    --purple-two: #ddf2ff;
 }
 
 * {
@@ -30,34 +30,89 @@ body {
     flex-direction: column;
     width: 400px;
     padding: .4rem;
-    box-sizing: border-box;
-    border: solid black;
+    box-sizing: border-box; /* faz o tamanho da "caixa" nao mudar ou algo do tipo */
 }
 
 .imagem-perfil-contorno {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* aparentemente precisa disso para alinhar as coisa */
+    align-items: center; /* deixa coisa no centro também */
+    justify-content: center; /* deixa coisa no centro */
 
-    border-radius: 100%;
+    border-radius: 100%; /* trasnforma num circulo */
 
-    width: 156px;
-    height: 156px;
+    width: 156px; /* largura */
+    height: 156px; /* altura */
 
-    border: 2px solid var(--purple-two);
+    border: 2px solid var(--purple); /* cria a borda de fora */
 }
 
 .imagem-perfil {
-    max-width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-color: var(--purple-two);
-    overflow: hidden;
+    max-width: 150px; /* largura */
+    height: 150px; /* altura */
+    border-radius: 100%; /* faz virar um circulo */
+    background-color: var(--purple-two); /* cor do plano de fundo */
+    overflow: hidden; /* esconde a parte da foto que nao está dentro da bola azul */
 }
 
+/* foto de perfil */
 .imagem-perfil img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: -2.3rem .6rem;
+    width: 200px; /* largura */
+    height: 200px; /* altura */
+    object-fit: cover; /* serve para nao distorcer a imagem */
+    object-position: -2.3rem .6rem; /* posição da imagem */
 }
+
+/* Ahoba */
+.ahoba {
+    font-size: 11pt; /* tamanho da fonte */
+    margin-top: .3rem; /* margem em cima */
+    margin-bottom: 5%; /* margem embaixo */
+}
+
+/* Links */
+.container ul:nth-child(3) {
+    list-style: none; /* tira a bolinha da lista */
+    display: flex;
+    flex-direction: column; /* direçao da lista 'colunas' */
+    width: 100%; /* cobre o maximo de largura possivel do container */
+    flex: 1;
+    gap: 1rem; /* o espaço entre cada li */
+    margin-bottom: 20%; /* cria uma margin no final do ul */
+}
+
+.container ul:nth-child(3) li {
+    text-align: center; /* alinha o texto para o centro */
+    border: 2px solid var(--purple); /* declara a borda */
+    border-radius: 7px; /* arredonda as bordas */
+    cursor: pointer; /* muda o cursor pra um bonito */
+    padding: .8rem; /* deixa mais grosso */
+    font-weight: 600; /*peso da fonte "600" é bold */
+    font-size: 14pt; /* tamanho da fonte */
+
+    transition: 0.2s;
+}
+
+.container ul:nth-child(3) li:hover {
+    scale: 1.03;
+    background-color: var(--purple-two);
+    transition: .3s;
+}
+
+/* ícones */
+.container ul:nth-child(4) {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.container ul:nth-child(4) li {
+    scale: 0.5;
+    transition: 0.2s;
+}
+
+.container ul:nth-child(4) li:hover {
+    scale: 0.6;
+    transition: 0.3s;
+}
+
