@@ -115,3 +115,15 @@ body {
     scale: 0.6;
     transition: 0.3s;
 }
+
+@media (max-width: 500px){
+    .container {
+        width: 250px;
+    }
+
+    .container ul:nth-child(4) {
+        scale: 0.6;
+        width: 100%;
+    }
+
+}
