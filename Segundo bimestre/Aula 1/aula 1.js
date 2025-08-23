@@ -9,9 +9,9 @@ function tarde() {
 
 }
 
-let botao = document.getElementById=(oi)
 
-botao.addEventListener("click",tarde)
+let botao = document.getElementById=(oi) // pega o botão pelo id
+botao.addEventListener("click",tarde) // adiciona evento de clique
 
 
 
